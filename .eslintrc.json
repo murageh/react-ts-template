@@ -1,0 +1,83 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "overrides": [
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": 0,
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "react/react-in-jsx-scope": "off",
+    "camelcase": "error",
+    "spaced-comment": "warn",
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "no-duplicate-imports": "error",
+    "react/jsx-filename-extension": 0,
+    "no-param-reassign": 0,
+    "react/prop-types": 1,
+    "react/require-default-props": 0,
+    "react/no-array-index-key": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/forbid-prop-types": 0,
+    "import/order": 0,
+    "no-console": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "prefer-destructuring": 1,
+    "no-shadow": 0,
+    "no-empty-function": [
+      "warn",
+      {
+        "allow": [
+          "arrowFunctions",
+          "functions",
+          "asyncFunctions"
+        ]
+      }
+    ],
+    "no-unused-vars": [
+      1,
+      {
+        "ignoreRestSiblings": false
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        //                "paths": ["src"],
+        //                "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "moduleDirectory": [
+          "node_modules",
+          "src/"
+        ]
+      },
+      "typescript": {}
+    }
+  }
+}

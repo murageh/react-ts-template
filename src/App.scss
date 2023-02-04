@@ -1,0 +1,45 @@
+$primary-color: #000000;
+$secondary-color: #841AB2;
+$secondary-color2: #320844;
+$primary-background: #BA70DA;
+$secondary-background: #F8F9FA;
+
+.App {
+  height: 100vh;
+  color: $primary-color;
+  background: $secondary-background;
+  font-size: 1.1rem;
+  text-align: center;
+  transition: all 0.5s ease-in;
+  animation-delay: 0.4s;
+}
+
+.main-router-display {
+  // Total height of the page minus the height of the header
+  height: calc(100vh - 80px);
+
+  .page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+
+    &.center {
+      justify-content: center;
+    }
+
+    .page__title {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    p, .page__text {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+  }
+}
