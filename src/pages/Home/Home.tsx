@@ -7,7 +7,8 @@ const Home = () => {
       <p className='page__text'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
         voluptatum, quod, quia, voluptas quae voluptates quibusdam quos
-        voluptatibus quas natus quidem. Quisquam, quae. Quisquam, quae. Quisquam,
+        voluptatibus quas natus quidem. Quisquam, quae. Quisquam, quae. Quisquam, quae.
+        Quisquam, quae.
       </p>
     </div>
   );

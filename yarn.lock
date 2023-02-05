@@ -1507,6 +1507,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@crispice/save-progress@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "@crispice/save-progress@npm:1.0.6"
+  dependencies:
+    typescript: ^4.9.3
+  peerDependencies:
+    "@types/react": ">=17.0.0"
+    react: ">=17.0.0"
+  checksum: a3bf1c1f4e1df299cf3ca5f3890513cef5b41101ef102f0df7cd3390a7c4c18cb88193889b7b7f05bd787929bb546af6b8fab3716ae26862232856221b83bd6f
+  languageName: node
+  linkType: hard
+
 "@csstools/normalize.css@npm:*":
   version: 12.0.0
   resolution: "@csstools/normalize.css@npm:12.0.0"
@@ -11413,6 +11425,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-ts-template@workspace:."
   dependencies:
+    "@crispice/save-progress": ^1.0.6
     "@emotion/react": ^11.10.5
     "@emotion/styled": ^11.10.5
     "@fontsource/roboto": ^4.5.8
@@ -13105,7 +13118,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.9.4":
+"typescript@npm:^4.9.3, typescript@npm:^4.9.4":
   version: 4.9.5
   resolution: "typescript@npm:4.9.5"
   bin:
@@ -13115,7 +13128,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.9.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
   version: 4.9.5
   resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"
   bin:

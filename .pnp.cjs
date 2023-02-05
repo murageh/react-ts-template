@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@crispice/save-progress", "virtual:6be4c5f06b3ac89bfb7a69dc75c8b90fdb7f5c67b648f718e1dc862d7f1841a2a28aa29a630dbee0c8394b6c36b3274ff295a35ab20370159d0f0a1c4cea3a3b#npm:1.0.6"],\
             ["@emotion/react", "virtual:6be4c5f06b3ac89bfb7a69dc75c8b90fdb7f5c67b648f718e1dc862d7f1841a2a28aa29a630dbee0c8394b6c36b3274ff295a35ab20370159d0f0a1c4cea3a3b#npm:11.10.5"],\
             ["@emotion/styled", "virtual:6be4c5f06b3ac89bfb7a69dc75c8b90fdb7f5c67b648f718e1dc862d7f1841a2a28aa29a630dbee0c8394b6c36b3274ff295a35ab20370159d0f0a1c4cea3a3b#npm:11.10.5"],\
             ["@fontsource/roboto", "npm:4.5.8"],\
@@ -2877,6 +2878,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@bcoe-v8-coverage-npm-0.2.3-9e27b3c57e-850f930553.zip/node_modules/@bcoe/v8-coverage/",\
           "packageDependencies": [\
             ["@bcoe/v8-coverage", "npm:0.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@crispice/save-progress", [\
+        ["npm:1.0.6", {\
+          "packageLocation": "./.yarn/cache/@crispice-save-progress-npm-1.0.6-6201a39dc9-a3bf1c1f4e.zip/node_modules/@crispice/save-progress/",\
+          "packageDependencies": [\
+            ["@crispice/save-progress", "npm:1.0.6"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6be4c5f06b3ac89bfb7a69dc75c8b90fdb7f5c67b648f718e1dc862d7f1841a2a28aa29a630dbee0c8394b6c36b3274ff295a35ab20370159d0f0a1c4cea3a3b#npm:1.0.6", {\
+          "packageLocation": "./.yarn/__virtual__/@crispice-save-progress-virtual-a6bf473664/0/cache/@crispice-save-progress-npm-1.0.6-6201a39dc9-a3bf1c1f4e.zip/node_modules/@crispice/save-progress/",\
+          "packageDependencies": [\
+            ["@crispice/save-progress", "virtual:6be4c5f06b3ac89bfb7a69dc75c8b90fdb7f5c67b648f718e1dc862d7f1841a2a28aa29a630dbee0c8394b6c36b3274ff295a35ab20370159d0f0a1c4cea3a3b#npm:1.0.6"],\
+            ["@types/react", "npm:18.0.27"],\
+            ["react", "npm:18.2.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -15901,6 +15925,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["react-ts-template", "workspace:."],\
+            ["@crispice/save-progress", "virtual:6be4c5f06b3ac89bfb7a69dc75c8b90fdb7f5c67b648f718e1dc862d7f1841a2a28aa29a630dbee0c8394b6c36b3274ff295a35ab20370159d0f0a1c4cea3a3b#npm:1.0.6"],\
             ["@emotion/react", "virtual:6be4c5f06b3ac89bfb7a69dc75c8b90fdb7f5c67b648f718e1dc862d7f1841a2a28aa29a630dbee0c8394b6c36b3274ff295a35ab20370159d0f0a1c4cea3a3b#npm:11.10.5"],\
             ["@emotion/styled", "virtual:6be4c5f06b3ac89bfb7a69dc75c8b90fdb7f5c67b648f718e1dc862d7f1841a2a28aa29a630dbee0c8394b6c36b3274ff295a35ab20370159d0f0a1c4cea3a3b#npm:11.10.5"],\
             ["@fontsource/roboto", "npm:4.5.8"],\
